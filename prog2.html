@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <script src="angular.min.js"></script>
+    <script src="app2.js"></script>
+<title>Hello</title>
+<h1>Using Images</h1>
+<body ng-app="myApp1">
+<div ng-controller="myController">
+    <input type="text" ng-model="y">
+    <input type="button" value = "Me During Start of the month" ng-click="fun1()">
+    <br>
+    <label>This is me during Month End</label><br>
+    <img ng-src="MeDuring{{x}}.png">
+</div>
+
+</body>
+</html>
